@@ -16,45 +16,109 @@
 <body>
     <h1 class="hidden">Welcome to New Quatro!</h1>
     <div class="container">
-        <header id="main-header" class="grid">
-            <!-- <nav id="main-nav">
+        <header id="mobile-header" class="grid-con">
+            <nav id="mobile-nav">
                 <h2 class="hidden">Main Navigation</h2>
                 <input type="checkbox" id="hamburger">
                 <label for="hamburger">
-                    <img src="images/hamburger.svg" alt="hamburger menu icon">
+                    <img src="img/hamburger.svg" alt="hamburger menu icon">
                 </label>
-                <div id="burger-con">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Brand Story</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </nav> -->
-
-            <!-- <nav class="mobile-menu">
-                <div class="menu-icon">
-                  <i class="fa fa-bars"></i>
-                </div>
-                <ul class="menu-items">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </nav> -->
-              
-            <div id="logo">
-                <img src="images/" alt="Quatro Logo">
+            </nav>
+            <div id="mobile-logo">
+                <img src="https://via.placeholder.com/154x25?text=Logo" alt="Quatro Logo">
+            </div>
+            <div id="search">
+                <img src="img/search.svg" alt="search">
             </div>
         </header>
-    <main>
+        <main>
+            <h2 class="hidden">Main Image</h2>
+            <img id="main-image" src="img/m-main-image.jpg" alt="main image">
+            <section id="product">
+                <h2 class="hidden">Quatro Products</h2>
+                <div class="product-align">
+                    <img src="img/m-product-apple.jpg" alt="product apple">
+                    <h3 class="product-title">Quatro<span>Apple</span></h3>
+                    <p>Right from Nature</p>
+                    <p>Tasty and healthy</p>
+                    <button class>
+                        <span>More</span>
+                    </button>
+                </div>
+                <div class="product-align">
+                    <img src="img/m-product-lime.jpg" alt="product lime">
+                    <h3 class="product-title">Quatro<span>Lime</span></h3>
+                    <p>Right from Nature</p>
+                    <p>Tasty and healthy</p>
+                    <button>
+                        <span>More</span>
+                    </button>
+                </div>
+                <div class="product-align">
+                    <img src="img/m-product-orange.jpg" alt="product orange">
+                    <h3 class="product-title">Quatro<span>Orange</span></h3>
+                    <p>Right from Nature</p>
+                    <p>Tasty and healthy</p>
+                    <button>
+                        <span>More</span>
+                    </button>
+                </div>
+                <div class="product-align">
+                    <img src="img/m-product-pineapple.jpg" alt="product pineapple">
+                    <h3 class="product-title">Quatro<span>Pineapple</span></h3>
+                    <p>Right from Nature</p>
+                    <p>Tasty and healthy</p>
+                    <button>
+                        <span>More</span>
+                    </button>
+                </div>
+            </section>
 
-    </main>
-    <footer>
+            <section id="brand">
+                <iframe width="390" height="266" src="https://www.youtube.com/embed/NY24ORFWtCc?controls=0&amp;start=7" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h2 id="brand-title">Brand Story</h2>
+                <article id="brand-content" class="grid-con">
+                    <h3 class="hidden">Brand Story - Details</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+                        <button>
+                            <span>More</span>
+                        </button>
+                </article>
+            </section>
 
-    </footer>
+            <article id="contact-us-con" class="grid-con">
+                <h2 id="contact-us-title">Contact Us</h2>
+                <p id="contact-us-subhead">Quatro care for your story!</p>
+                <p id="contact-us-body">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                <p id="contact-us-1-1">You can reach us at</p>
+                <p id="contact-us-1-2">Call <span>1-800-1234-1234</span></p>
+                <p id="contact-us-2-2">Email <span>ContactUs@quatro.ca</span></p>
+                <button>
+                    <span>Leave Your Story!</span>
+                </button>
+            </article>
+        </main>
+        <footer class="grid-con">
+            <h2 class="hidden">Footer</h2>
+            <nav id="bottom-nav">
+                <h3 class="hidden">Bottom Navigation</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Brand Story</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+            <section id="social">
+                <h3 class="hidden">Social Links</h3>
+                <img src="img/facebook.svg" alt="facebook">
+                <img src="img/instagram.svg" alt="instageam">
+                <img src="img/twitter.svg" alt="twitter">
+            </section>
+            <p>Copyright &#64; 2023 <span>Quatro</span></p>
+
+        </footer>
     </div>  
     <script src="js/main.js"></script>    
 </body>
