@@ -13,7 +13,7 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-    background-color: #ccc;
+    background-color: #C1CF95;
 }
 
 a {
@@ -65,7 +65,7 @@ a {
   border-radius: 25px;
   background-color: #517d59;
   color: #fff;
-  font-size: 100%;
+  font-size: 20px;
   font-weight: 400;
   padding: 7px;
 }
@@ -141,6 +141,7 @@ a {
   }
   
   .btn-more2, .btn-more4 {
+  background-color: #C1CF95;
 	text-align: center;
 	margin-top: 10px;
   }
@@ -148,8 +149,10 @@ a {
   .btn-more1 {
 	display: inline-block;
 	padding: 10px 20px;
+  color: #fff;
+  background-color: #517d59;
 	border: 1px solid #000;
-	border-radius: 5px;
+	border-radius: 20px;
 	cursor: pointer;
   }
   
@@ -159,12 +162,13 @@ a {
 
   .brand {
     display: grid;
+    font-size: 20px;
     grid-template-columns: 1fr 1fr;
     width: 90%;
     width: 1200px;
     height: 500px;
-    border: 1px solid #ccc;
-    box-shadow: 0px 0px 10px #ccc;
+    border: 1px solid #D5B4B6;
+    box-shadow: 0px 0px 10px #D5B4B6;
     overflow: hidden;
   }
   
@@ -173,7 +177,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #D5B4B6;
     padding: 50px;
   }
   
