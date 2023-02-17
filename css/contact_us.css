@@ -1,0 +1,334 @@
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. Features
+    6. Footer
+
+*/
+
+/* 1. General Styles */
+
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Noto Serif', serif; */
+    font-size: 18px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 2. Grid */
+
+.grid-con {
+    display: grid;
+    grid-template-columns: repeat(12, 80px);
+    grid-column-gap: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+/* 3. Top Nav */
+
+#desktop-header {
+  background-color: #e1efed;
+  height: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#desktop-logo {
+  grid-column: 1/4;
+  align-self: center;
+}
+
+#desktop-nav {
+  grid-column: 4/10;
+  align-self: center;
+}
+
+#desktop-nav ul li {
+  display: contents;
+}
+
+#desktop-nav ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  margin-right: 81px;
+  transition: all 0.3s ease;
+}
+
+#desktop-nav ul li a:hover {
+  border-radius: 25px;
+  background-color: #517d59;
+  color: #fff;
+  font-size: 100%;
+  font-weight: 400;
+  padding: 7px;
+}
+
+#desktop-nav ul li :first-child {
+  margin-left: 64px;
+}
+
+#desktop-nav ul li :last-child {
+  margin-right: 0;
+}
+
+#search {
+  grid-column: 10/11;
+  align-self: center;
+}
+
+#social {
+  grid-column: 11/-1;
+  align-self: center;
+  text-align: end;
+  border-left: 1px solid #000000;
+}
+
+#social img {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+
+/* 5. Main Image and Products */
+
+#main-image {
+  margin-bottom: 0;
+}
+
+#product {
+  padding-top: 50px;
+  padding-bottom: 5px;
+  background-color: #C1CF95;
+  margin-top: 0;
+}
+
+.product-align {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-align img {
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px #707070;
+}
+
+.product-title {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 25px;
+}
+
+.product-align p {
+  margin-top: 16px;
+  font-weight: 300;
+}
+
+.product-title span {
+  font-family: 'Noto Serif', serif;
+  font-size: 25px;
+  color: white;
+  margin-left: 3px;
+  -webkit-text-stroke: 1.5px black;
+}
+
+button {
+  appearance: auto;
+  background-color: #517d59;
+  border: 0;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1;
+  padding: 1em 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* 6. Brand Story */
+
+#brand {
+  background-color: #D5B4B6;
+  padding-bottom: 30px;
+}
+
+#brand-title {
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#brand-content p {
+  grid-column: 1/-1;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+#brand-content button {
+  grid-column: 2/4;
+}
+
+/* 7. Contact Us */
+
+#contact-us-con {
+  background-color: #EBD06D;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+#contact-us-title {
+  grid-column: 1/-1;
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#contact-us-subhead {
+  grid-column: 1/-1;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contact-us-body {
+  grid-column: 2/12;
+  line-height: 1.5em;
+}
+
+#form-con {
+  background-color: #EBD06D;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  grid-column: 4/6;
+  justify-self: end;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: 11px;
+}
+
+input, textarea {
+  grid-column: 6/10;
+  justify-self: first;
+  font-weight: bold;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 120px;
+}
+
+
+button {
+  grid-column: 6/8;
+  background-color: #517d59;
+  border: 0;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 1em 2em;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  font-size: 18px;
+}
+
+button a {
+  color: #fff;
+}
+
+#form-button {
+  grid-column: 2/4;
+  text-align: center;
+}
+
+#form-button button a {
+  color: #fff;
+}
+
+#submission {
+  background-color: #707070;
+  height: 390px;
+}
+
+#submission h1 {
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+}
+
+#submission p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#close img {
+  grid-column: 2/4;
+  text-align: center;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  margin-left: 53px;
+}
+
+/* 8. Footer */
+
+footer {
+  background-color: #e1efed;
+  padding-top: 50px;
+}
+
+footer p {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+footer p span {
+  font-weight: bolder;
+}
