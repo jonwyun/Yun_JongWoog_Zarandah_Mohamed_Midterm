@@ -1,16 +1,3 @@
-/* 
-
-    CSS Guide
-
-    1. General Styles
-    2. Grid
-    3. Header
-    4. Main Hero Image
-    5. Features
-    6. Footer
-
-*/
-
 /* 1. General Styles */
 
 .hidden {
@@ -26,9 +13,10 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
+    background-color: #ccc;
 }
 
-/*a {
+a {
   text-decoration: none;
 }
 
@@ -168,66 +156,37 @@ body {
   .more {
 	font-size: 16px;
   }
-  
-  /* Set styles for the brand story section */
-  .brand-story2 {
-	margin-top: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
-  
-  .brand-movie-clip, .brand-story-lorem-ipsum-container {
-	margin-right: 30px;
-  }
-  
-  .brand-movie-clip img {
-	max-width: 100%;
-	height: auto;
-	cursor: pointer;
-  }
-  
-  .btn-play-click {
-	display: flex;
-	align-items: center;
-  }
-  
-  .btn-play-click-child {
-	border-top: 7px solid transparent;
-	border-bottom: 7px solid transparent;
-	border-left: 12px solid #000;
-	margin-right: 5px;
-  }
-  
-  .b, .b1, .b2, .b3 {
-	display: block;
-	font-size: 16px;
-  }
-  
-  .b2, .b3 {
-	margin-top: 5px;
-  }
-  
-  .brand-story-lorem-ipsum-container b {
-	display: block;
-	font-size: 24px;
-	margin-bottom: 10px;
-  }
-  
-  .blank-line {
-	border-bottom: 1px solid #000;
-	margin-bottom: 20px;
-	width: 100%;
-  }
-  
-  .lorem-ipsum-dolor-sit-amet-co {
-	font-size: 16px;
-	margin-bottom: 10px;
-  }
-  
 
-/* 7. Contact Us */
-
+  .brand {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    width: 1200px;
+    height: 500px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+    overflow: hidden;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 50px;
+  }
+  
+  .video {
+    width: 100%;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
 
 /* 8. Footer */
 
